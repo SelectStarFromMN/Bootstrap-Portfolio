@@ -1,0 +1,57 @@
+
+html {
+    min-height: 100%;
+}
+body {
+    color: #777777;
+    margin: 0;
+}
+
+.bg {
+    background-image: url('../imgs/concrete-texture.png');
+    min-height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}     
+
+.navbar--lesspad {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.headstone {
+    float: left;
+    color: white;
+    padding: 0 20px 0 20px;
+    margin: 0;
+    background-color: #4aaaa5;
+    border: 10px solid #4aaaa5;
+}
+
+.selfie {
+    width: 250px;
+    height: 200px;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 2em;
+}
+
+.h1abt {
+    border-bottom: solid 2px #dddddd;
+    padding-bottom: 25px;
+}
+
+.inlink {
+     text-decoration: none;
+     color: #777777;
+}
+
+.btn-turq {
+    background-color: #4aaaa5;
+    color: white;
+}
