@@ -1,10 +1,11 @@
 
 html {
     min-height: 100%;
+    position: relative;
 }
 body {
     color: #777777;
-    margin: 0;
+    margin: 0 0 55px 0; /* Margin bottom by footer height */
     background: url('../imgs/concrete-texture.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -30,6 +31,7 @@ body {
 .abouts {
     margin-top: 20px;
     background-color: #ffffff;
+    padding-top: 10px;
 }
 
 .selfie {
@@ -69,5 +71,11 @@ h1 {
     background: #666666;
     color: #ffffff;
     border-top: 5px solid #4aaaa5;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    /* margin: 0 auto; */
+    max-width: 960px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -480px
 }
