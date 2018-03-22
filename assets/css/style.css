@@ -17,6 +17,7 @@ body {
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
+    border-bottom: 5px solid #7777;
 }
 
 .headstone {
@@ -35,8 +36,8 @@ body {
 }
 
 .selfie {
-    width: 250px;
-    height: 200px;
+    float: left;
+    margin: 15;
 }
 
 h1 {
@@ -71,44 +72,30 @@ h1 {
     background: #666666;
     color: #ffffff;
     border-top: 5px solid #4aaaa5;
-    /* margin-top: 20px; */
-    /* margin: 0 auto; */
-    max-width: 960px;
     position: absolute;
     bottom: 0;
-    left: 50%;
-    margin-left: -480px
+    overflow: auto;
 }
 
-.projs {
+.main {
     background-color: #ffffff;
     margin: 10px;
     padding: 10px;
 }
 
-.cntct {
+.contact {
     background-color: #ffffff;
     margin: 10px;
     padding: 10px;
 }
-
-.foliotainer {
-    position: relative;
-} 
 
 .proj {
-    height: 200px;
-    width: 250px;
     display: inline-block;
     position: relative;
-    /* top: 200px; */
-    /* border: 1px solid red; */
 }
 
 .projlnk {
-    height: 200px;
-    width: 250px;
-    /* margin: 0 20px 10px 0; */
+    width: 100%;
 }
 
 .projlabel {
@@ -122,8 +109,6 @@ h1 {
     left: 0;
     right: 0;
     margin: 0;
-    /* z-index: 1; */
-    /* display: none; */
 }
 
 .projlabel a {
