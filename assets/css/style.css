@@ -59,6 +59,7 @@ h1 {
 .btn-turq {
     background-color: #4aaaa5;
     color: white;
+    margin: 2px;
 }
 
 .btn-turq:hover {
@@ -92,6 +93,7 @@ h1 {
 .proj {
     display: inline-block;
     position: relative;
+    margin-bottom: 10px;
 }
 
 .projlnk {
@@ -114,4 +116,10 @@ h1 {
 .projlabel a {
     color: #ffffff;
     text-decoration: none;
+}
+
+.main input[type*="submit"] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 5px 15px;
 }
